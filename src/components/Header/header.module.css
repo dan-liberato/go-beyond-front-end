@@ -1,0 +1,149 @@
+.container {
+	width: 100%;
+	position: relative;
+	height: 80px;
+	padding: 7px 20px 10px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topbar {
+	width: 100%;
+	max-width: 1218px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+.topbar__icon {
+}
+
+.topbar__contents {
+	display: flex;
+}
+
+.contentLogo {
+	width: 109px;
+	height: 25px;
+	margin-bottom: 14px;
+}
+
+.menu {
+	display: none;
+}
+
+.menu__list {
+}
+
+.menu__list__item {
+}
+
+.search {
+	position: absolute;
+	width: 100%;
+	top: 41px;
+	border-bottom: 1px solid #7a7a7a;
+}
+
+.search__form {
+	width: 100%;
+	display: flex;
+	height: 22px;
+}
+
+.search__formInput {
+	width: 100%;
+	font-size: var(--smallTextSize2);
+	position: relative;
+	background: transparent;
+}
+
+.search__formSubmit {
+	width: 20px;
+	height: 20px;
+}
+
+.contentUtilities {
+	display: flex;
+}
+
+.utilitiesItem,
+.utilitiesItem a {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: var(--smallTextSize2);
+}
+
+.itemAccount {
+	display: none;
+}
+
+.itemCart {
+	width: 24px;
+	height: 24px;
+	position: relative;
+}
+
+.itemCart__amount {
+	position: absolute;
+	top: -6px;
+	right: -6px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: red;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+/* .itemCart__amount span {
+	display: block;
+} */
+
+@media (min-width: 64rem) {
+	.topbar__icon {
+		display: none;
+	}
+	.contentLogo {
+		width: 181px;
+		height: 41px;
+	}
+	.menu {
+		display: block;
+	}
+	.menu__list {
+		width: 100%;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: center;
+		gap: 20px;
+	}
+	.itemAccount {
+		display: block;
+	}
+
+	.search {
+		position: relative;
+		top: 0;
+		width: 280px;
+		margin: 0 20px;
+	}
+}
+
+@media (min-width: 71.563rem) {
+	.menu__list {
+		max-width: 361px;
+		gap: 34px;
+	}
+	.utilitiesItem:first-child {
+		margin-left: 21px;
+	}
+}
