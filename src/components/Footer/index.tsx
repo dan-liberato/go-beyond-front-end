@@ -10,7 +10,7 @@ export const Footer = () => {
 				<div
 					className={`${styles.footer__contents} ${styles.location}`}
 				>
-					<h3 className={`${styles.location__title} ${styles.title}`}>
+					<h3 className={`${styles.location__title} title`}>
 						Localização
 					</h3>
 					<address className={styles.location__address}>

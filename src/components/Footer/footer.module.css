@@ -32,7 +32,7 @@
 }
 
 .location__title::after {
-	background: #fff;
+	background: var(--details-color);
 }
 
 .location__address {
@@ -81,6 +81,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	color: var(--details-color);
 }
 
 .credits span {
