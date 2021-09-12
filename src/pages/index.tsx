@@ -3,8 +3,13 @@ import type { NextPage } from "next";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Slider } from "../components/Slider";
+import { Shelf } from "../components/Shelf";
 
-import styles from "../styles/Home.module.css";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import styles from "../styles/home.module.css";
 
 const Home: NextPage = () => {
 	return (
@@ -13,7 +18,9 @@ const Home: NextPage = () => {
 
 			<Slider />
 
-			<main className={styles.main}></main>
+			<main className={styles.main}>
+				<Shelf />
+			</main>
 
 			<Footer />
 		</div>
