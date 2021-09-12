@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+import React from "react";
 import { Autoplay, Pagination, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { SliderItem } from "../SliderItem";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -10,7 +12,7 @@ import styles from "./slider.module.css";
 
 export const Slider = () => {
 	return (
-		<div className={styles.slider}>
+		<section className={styles.slider}>
 			<Swiper
 				modules={[Autoplay, Pagination, A11y]}
 				spaceBetween={0}
@@ -20,92 +22,45 @@ export const Slider = () => {
 				className={styles.slider__content}
 			>
 				<SwiperSlide className={styles.slider__contentItem}>
-					<div className={styles.itemSlider}>
-						<div className={styles.itemSlider__mobileImage}>
-							<div className={styles.mobileImage__overlay}></div>
-
-							<div className={styles.mobileImage__image}>
-								<img
-									src="/assets/slider/buy-online.png"
-									alt="Buy"
-								/>
-							</div>
-						</div>
-
-						<div className={styles.itemSlider__desktopImage}>
-							<img src="/assets/slider/front-end.png" alt="Buy" />
-						</div>
-
-						<div className={styles.itemSlider__text}>
-							<span className={styles.textSubtitle}>
-								front-end • back-end • mobile
-							</span>
-							<h2 className={styles.textTitle}>
-								Olá, você quer entrar de cabeça em
-								desenvolvimento?
-							</h2>
-						</div>
-					</div>
+					<SliderItem
+						title="Olá, você quer entrar de cabeça em
+								desenvolvimento?"
+						subtitle="front-end • back-end • mobile"
+						desktopImage="/assets/slider/front-end.png"
+						mobileImage="/assets/slider/buy-online.png"
+					/>
 				</SwiperSlide>
 
 				<SwiperSlide className={styles.slider__contentItem}>
-					<div className={styles.itemSlider}>
-						<div className={styles.itemSlider__mobileImage}>
-							<div className={styles.mobileImage__overlay}></div>
-
-							<div className={styles.mobileImage__image}>
-								<img
-									src="/assets/slider/buy-online.png"
-									alt="Buy"
-								/>
-							</div>
-						</div>
-
-						<div className={styles.itemSlider__desktopImage}>
-							<img src="/assets/slider/front-end.png" alt="Buy" />
-						</div>
-
-						<div className={styles.itemSlider__text}>
-							<span className={styles.textSubtitle}>
-								front-end • back-end • mobile
-							</span>
-							<h2 className={styles.textTitle}>
-								Olá, você quer entrar de cabeça em
-								desenvolvimento?
-							</h2>
-						</div>
-					</div>
+					<SliderItem
+						title="Olá, você quer entrar de cabeça em
+								desenvolvimento?"
+						subtitle="front-end • back-end • mobile"
+						desktopImage="/assets/slider/front-end.png"
+						mobileImage="/assets/slider/buy-online.png"
+					/>
 				</SwiperSlide>
 
 				<SwiperSlide className={styles.slider__contentItem}>
-					<div className={styles.itemSlider}>
-						<div className={styles.itemSlider__mobileImage}>
-							<div className={styles.mobileImage__overlay}></div>
+					<SliderItem
+						title="Olá, você quer entrar de cabeça em
+								desenvolvimento?"
+						subtitle="front-end • back-end • mobile"
+						desktopImage="/assets/slider/front-end.png"
+						mobileImage="/assets/slider/buy-online.png"
+					/>
+				</SwiperSlide>
 
-							<div className={styles.mobileImage__image}>
-								<img
-									src="/assets/slider/buy-online.png"
-									alt="Buy"
-								/>
-							</div>
-						</div>
-
-						<div className={styles.itemSlider__desktopImage}>
-							<img src="/assets/slider/front-end.png" alt="Buy" />
-						</div>
-
-						<div className={styles.itemSlider__text}>
-							<span className={styles.textSubtitle}>
-								front-end • back-end • mobile
-							</span>
-							<h2 className={styles.textTitle}>
-								Olá, você quer entrar de cabeça em
-								desenvolvimento?
-							</h2>
-						</div>
-					</div>
+				<SwiperSlide className={styles.slider__contentItem}>
+					<SliderItem
+						title="Olá, você quer entrar de cabeça em
+								desenvolvimento?"
+						subtitle="front-end • back-end • mobile"
+						desktopImage="/assets/slider/front-end.png"
+						mobileImage="/assets/slider/buy-online.png"
+					/>
 				</SwiperSlide>
 			</Swiper>
-		</div>
+		</section>
 	);
 };

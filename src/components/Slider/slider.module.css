@@ -71,19 +71,6 @@
 	color: var(--details-color);
 }
 
-/* Swiper  */
-.swiper-pagination-bullet {
-	width: 7px;
-	height: 7px;
-	background: #bdbdbd;
-	opacity: 3;
-}
-
-.swiper-pagination-bullets .swiper-pagination-bullet-active {
-	background-color: var(--active-color);
-	transform: none;
-}
-
 @media (min-width: 28rem) {
 	.slider,
 	.itemSlider {

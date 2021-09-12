@@ -67,3 +67,17 @@ button {
 	height: 32.42px;
 	text-transform: uppercase;
 }
+
+/* Swiper  */
+.swiper-pagination-bullets .swiper-pagination-bullet {
+	background: #bdbdbd;
+}
+.swiper-pagination-bullet {
+	width: 7px;
+	height: 7px;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet-active {
+	background-color: var(--active-color);
+	transform: none;
+}
