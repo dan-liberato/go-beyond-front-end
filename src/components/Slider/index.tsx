@@ -1,27 +1,24 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Autoplay, Pagination, A11y } from "swiper";
+import { Autoplay, Navigation, Pagination, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SliderItem } from "../SliderItem";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 import styles from "./slider.module.css";
 
 export const Slider = () => {
 	return (
-		<section className={styles.slider}>
+		<section className={styles.container}>
 			<Swiper
-				modules={[Autoplay, Pagination, A11y]}
+				modules={[Autoplay, Navigation, Pagination, A11y]}
 				spaceBetween={0}
 				slidesPerView={1}
+				navigation={true}
 				pagination={{ clickable: true }}
 				autoplay={true}
 				className={styles.slider__content}
 			>
-				<SwiperSlide className={styles.slider__contentItem}>
+				<SwiperSlide className={styles.contentItem}>
 					<SliderItem
 						title="Olá, você quer entrar de cabeça em
 								desenvolvimento?"
@@ -31,7 +28,7 @@ export const Slider = () => {
 					/>
 				</SwiperSlide>
 
-				<SwiperSlide className={styles.slider__contentItem}>
+				<SwiperSlide className={styles.contentItem}>
 					<SliderItem
 						title="Olá, você quer entrar de cabeça em
 								desenvolvimento?"
@@ -41,7 +38,7 @@ export const Slider = () => {
 					/>
 				</SwiperSlide>
 
-				<SwiperSlide className={styles.slider__contentItem}>
+				<SwiperSlide className={styles.contentItem}>
 					<SliderItem
 						title="Olá, você quer entrar de cabeça em
 								desenvolvimento?"
@@ -51,7 +48,7 @@ export const Slider = () => {
 					/>
 				</SwiperSlide>
 
-				<SwiperSlide className={styles.slider__contentItem}>
+				<SwiperSlide className={styles.contentItem}>
 					<SliderItem
 						title="Olá, você quer entrar de cabeça em
 								desenvolvimento?"
