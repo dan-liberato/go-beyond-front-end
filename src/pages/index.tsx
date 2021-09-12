@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import styles from "../styles/home.module.css";
+import Newsletter from "../components/Newsletter";
 
 const Home: NextPage = () => {
 	return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
 
 			<main className={styles.main}>
 				<Shelf />
+				<Newsletter />
 			</main>
 
 			<Footer />
