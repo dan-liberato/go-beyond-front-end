@@ -1,7 +1,7 @@
 .container {
 	width: 100%;
 	position: relative;
-	height: 80px;
+	height: 100px;
 	padding: 7px 20px 10px 20px;
 	display: flex;
 	justify-content: center;
@@ -10,7 +10,7 @@
 
 .topbar {
 	width: 100%;
-	max-width: 1218px;
+	max-width: 1199px;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
@@ -18,8 +18,8 @@
 	position: relative;
 }
 
-.topbar__icon {
-}
+/* .topbar__icon {
+} */
 
 .topbar__contents {
 	display: flex;
@@ -36,9 +36,15 @@
 }
 
 .menu__list {
+	flex-flow: column wrap;
 }
 
-.menu__list__item {
+.menu__list__item span {
+	padding-right: 8px;
+}
+
+.menu__list__item div {
+	top: -2px;
 }
 
 .search {
@@ -80,6 +86,7 @@
 
 .itemAccount {
 	display: none;
+	margin-right: 21px;
 }
 
 .itemCart {
@@ -141,7 +148,7 @@
 @media (min-width: 71.563rem) {
 	.menu__list {
 		max-width: 361px;
-		gap: 34px;
+		gap: 30px;
 	}
 	.utilitiesItem:first-child {
 		margin-left: 21px;
