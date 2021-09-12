@@ -1,42 +1,48 @@
-.container__newsletter {
+.container {
+	width: 100%;
+	min-height: 158px;
 	background: #f2f2f2;
 	display: flex;
 }
 
-.newsletter {
-	width: 288px;
+.content {
+	width: 90%;
 	margin: auto;
 	padding: 16px;
 }
 
-.newsletter__title {
+.title {
 	font-family: var(--fontLato);
 	font-weight: bold;
 	font-size: 22px;
 	margin-bottom: 22px;
 }
 
-.newsletter__form {
+.form {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column;
 	justify-content: center;
 	align-items: flex-start;
 }
 
 .form__label {
+	width: 100%;
+	height: 62px;
 	display: flex;
 	flex-direction: column;
 	font-family: var(--fontLato);
 	font-size: 12px;
 	color: #d7182a;
 }
+.form__label:first-of-type {
+	margin-bottom: 22px;
+}
 .form__label span {
-	margin-top: 8px;
+	line-height: 30px;
 }
 
 .form__input,
 .form__button {
-	width: 288px;
 	height: 48px;
 	font-family: var(--fontLato);
 	font-size: 12px;
@@ -46,22 +52,20 @@
 	background: #fff;
 }
 
-.form__input:first-of-type {
-	margin-bottom: 22px;
-}
-
 .form__input:focus,
 .form__input:focus-within {
 	border: 1px solid #bdbdbd;
 }
 
-.form__input--border {
+.form__inputBorder {
 	border: 1px solid #d7182a;
 }
 
 .form__button {
+	width: 100%;
 	font-size: 14px;
 	margin-top: 10px;
+	background: var(--details-color);
 }
 
 .button__disabled:disabled {
@@ -88,26 +92,26 @@
 	font-size: 14px;
 }
 
-@media (min-width: 64rem) {
-	.newsletter {
+@media (min-width: 48rem) {
+	.content {
 		width: 716px;
 	}
-	.newsletter__title {
+	.title {
 		text-align: center;
 	}
-	.newsletter__form {
+	.form {
 		flex-flow: row;
+	}
+	.form__label:first-of-type {
+		margin-bottom: 0;
 	}
 	.form__input {
 		width: 280px;
 		margin-right: 9px;
 	}
-	.form__input:first-of-type {
-		margin-bottom: 0;
-	}
 
 	.form__button {
-		width: 140px;
+		max-width: 140px;
 		margin-top: 0;
 	}
 

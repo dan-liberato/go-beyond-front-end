@@ -24,17 +24,14 @@ export const Newsletter = () => {
 	};
 
 	return (
-		<section className={styles.container__newsletter}>
-			<div className={styles.newsletter}>
+		<section className={styles.container}>
+			<div className={styles.content}>
 				{!submitedLead ? (
 					<>
-						<h2 className={styles.newsletter__title}>
+						<h2 className={styles.title}>
 							Participe de nossas news com promoções e novidades!
 						</h2>
-						<form
-							className={styles.newsletter__form}
-							onSubmit={hanldeSubmit}
-						>
+						<form className={styles.form} onSubmit={hanldeSubmit}>
 							<label
 								htmlFor="name"
 								className={styles.form__label}
@@ -50,7 +47,7 @@ export const Newsletter = () => {
 									placeholder="Digite seu nome"
 									onChange={(e) => setName(e.target.value)}
 								/>
-								{!name && <span>{nameError}</span>}
+								{!name && nameError}
 							</label>
 
 							<label
@@ -68,7 +65,7 @@ export const Newsletter = () => {
 									placeholder="Digite seu e-mail"
 									onChange={(e) => setEmail(e.target.value)}
 								/>
-								{!email && <span>{emailError}</span>}
+								{!email && emailError}
 							</label>
 
 							{(disabled && !name) || (disabled && !email) ? (
