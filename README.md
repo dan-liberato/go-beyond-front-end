@@ -1,5 +1,5 @@
 ![Screenshot](screenshot-home.png)
-# Challenge 01 - Gobeyond Front-end - Corebiz
+# Challenge 01 - Go beyond front-end - Corebiz
 
 Foi proposto como desafio o desenvolvimento da página Home de um e-commerce com
 HTML, CSS e JavaScript, também foi permitido o uso do React.
