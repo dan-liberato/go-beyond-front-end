@@ -5,7 +5,7 @@ Foi proposto como desafio o desenvolvimento da página Home de um e-commerce com
 HTML, CSS e JavaScript, também foi permitido o uso do React.
 
 ## O que eu fiz?
-Como já tenho um pouco de conhecimento, decidi desenvolver com NextJS e TypeScript, o CSS foi utilizando CSS Modules.
+Como já tenho um pouco de conhecimento, decidi desenvolver com NextJS e TypeScript, o CSS foi utilizando CSS Modules e mobile first.
 
 ### Executando a aplicação
 Clone o repositório/projeto
