@@ -16,7 +16,7 @@ export const Slider = () => {
 				navigation={true}
 				pagination={{ clickable: true }}
 				autoplay={true}
-				className={styles.slider__content}
+				className={styles.content}
 			>
 				<SwiperSlide className={styles.contentItem}>
 					<SliderItem
