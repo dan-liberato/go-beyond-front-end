@@ -1,0 +1,46 @@
+.rating {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.item {
+	cursor: pointer;
+	width: 1em;
+	height: 1em;
+	background-color: #c9c9c9;
+	-webkit-clip-path: polygon(
+		50% 0%,
+		65% 30%,
+		98% 35%,
+		71% 58%,
+		79% 91%,
+		50% 70%,
+		21% 91%,
+		31% 58%,
+		2% 35%,
+		36% 31%
+	);
+	clip-path: polygon(
+		50% 0%,
+		65% 30%,
+		98% 35%,
+		71% 58%,
+		79% 91%,
+		50% 70%,
+		21% 91%,
+		31% 58%,
+		2% 35%,
+		36% 31%
+	);
+}
+
+.item.selected {
+	background-color: var(--details-color);
+}
+
+/* .startRating {
+	flex-basis: 100%;
+	text-align: center;
+} */
