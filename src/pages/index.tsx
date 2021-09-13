@@ -16,14 +16,13 @@ const Home: NextPage = () => {
 	return (
 		<div className={styles.container}>
 			<Header />
-
 			<Slider />
 
 			<main className={styles.main}>
 				<Shelf />
-				<Newsletter />
 			</main>
 
+			<Newsletter />
 			<Footer />
 		</div>
 	);
