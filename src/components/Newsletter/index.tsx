@@ -21,12 +21,12 @@ export const Newsletter = () => {
 			setEmailError("Preencha com um e-mail válido");
 			setDisabled(true);
 		}
-
 		if (name && email) {
 			setSubmitedLead(true);
 			setName("");
 			setEmail("");
 			setNameError("");
+			setEmailError("");
 			setDisabled(false);
 		}
 	};
