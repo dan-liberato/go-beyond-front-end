@@ -64,7 +64,7 @@ export const MenuMobile = ({ children, open }: MenuMobileProps) => {
 
 				<li className={styles.list__item}>
 					<Link href="#">
-						<a>Sandalhas</a>
+						<a>Sandálias</a>
 					</Link>
 				</li>
 

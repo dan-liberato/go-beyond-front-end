@@ -71,7 +71,7 @@ export const Header = () => {
 						<Link href="/">
 							<a>
 								<img
-									src="/assets/brand/gobeyond_logo_white.png"
+									src="/assets/brand/gobeyond.svg"
 									alt="CoreBiz"
 									className={styles.contentLogo}
 								/>
@@ -87,7 +87,7 @@ export const Header = () => {
 								<Link href="/">Home</Link>
 							</li>
 							<li className={styles.menu__list__item}>
-								<Link href="/sapatos">
+								<Link href="#">
 									<a>
 										<span>Sapatos</span>
 										<Image
@@ -100,9 +100,9 @@ export const Header = () => {
 								</Link>
 							</li>
 							<li className={styles.menu__list__item}>
-								<Link href="/sandalhas">
+								<Link href="#">
 									<a>
-										<span>Sandalhas</span>
+										<span>Sandálias</span>
 										<Image
 											src="/assets/icons/coolicon.png"
 											alt="arrow_down"
@@ -113,7 +113,7 @@ export const Header = () => {
 								</Link>
 							</li>
 							<li className={styles.menu__list__item}>
-								<Link href="/contato">Contato</Link>
+								<Link href="#">Contato</Link>
 							</li>
 						</ul>
 					</nav>
@@ -135,7 +135,7 @@ export const Header = () => {
 								className={styles.search__formSubmit}
 							>
 								<img
-									src="/assets/icons/search.png"
+									src="/assets/icons/search.svg"
 									alt="Search"
 								/>
 							</button>
