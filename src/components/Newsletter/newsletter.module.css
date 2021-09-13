@@ -110,12 +110,12 @@
 		margin-right: 9px;
 	}
 
-	.form__button {
-		max-width: 140px;
+	.form button {
+		min-width: 146px;
 		margin-top: 0;
 	}
 
 	.form__submited__button {
-		width: 328px;
+		width: 300px;
 	}
 }

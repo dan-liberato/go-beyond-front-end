@@ -68,20 +68,27 @@ button {
 }
 
 .add-to-cart {
+	display: block;
 	font-family: var(--fontNunito);
 	font-weight: 900;
 	font-size: 0.75rem;
 	width: 125.28px;
-	height: 32.42px;
+	height: 32px;
 	background: var(--buyButton--color);
 	text-transform: uppercase;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: all 400ms ease;
 }
 
 .add-to-cart img {
 	margin-right: 10px;
+}
+
+.add-to-cart:hover {
+	color: var(--textColor-white);
+	opacity: 0.9;
 }
 
 .title {

@@ -66,6 +66,10 @@
 	color: var(--textColor-black);
 }
 
+.contact__button:hover {
+	color: initial;
+}
+
 .contact__button:last-of-type .contact__buttonIcon {
 	width: 28px;
 }
@@ -94,7 +98,7 @@
 	height: 18px;
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 48rem) {
 	.footer {
 		flex-flow: row;
 		justify-content: space-between;
