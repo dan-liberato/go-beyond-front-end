@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Screenshot](screenshot.png)
+# Challenge 01 - Go Beyond Front-end - CoreBiz
 
-## Getting Started
+Foi proposto como desafio o desenvolvimento da página Home de um e-commerce com
+HTML, CSS e JavaScript, também foi permitido o uso do React.
 
-First, run the development server:
+## O que eu fiz?
+Como já tenho um pouco de conhecimento, decidi desenvolver utilizando o NextJS e TypeScript, o
+CSS foi utilizando CSS Modules.
 
+Fiz o que foi solicitado, fiz o menu mobile e a validação do formulário de newsletter.
+
+### Executando a aplicação
 ```bash
-npm run dev
-# or
-yarn dev
+$ yarn dev ou npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Newsletter
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<div style="display: table;max-width:840px; margin: 0 auto;"><br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![Screenshot](screenshot-newsletter-01.png)
+![Screenshot](screenshot-newsletter-02.png)
+![Screenshot](screenshot-newsletter-03.png)
+![Screenshot](screenshot-newsletter-04.png)
+</div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Mobile menu
+<div style="display: table;max-width:380px; margin: 0 auto;"><br>
 
-## Learn More
+![Screenshot](screenshot-menu.png)
 
-To learn more about Next.js, take a look at the following resources:
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div style="**display**: inline_block"><br>
+ <img align="center" alt="NextJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nextjs/nextjs-original.svg"/>
+    <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/>
+    <img align="center" alt="Typescript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"/>
+</div>
