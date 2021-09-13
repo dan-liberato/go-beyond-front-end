@@ -22,7 +22,7 @@ $ yarn dev ou npm run dev
 ```
 Gerar a build
 ```bash
-$ yarn buil ou npm run build
+$ yarn build ou npm run build
 ```
 Executar a build
 ```bash
