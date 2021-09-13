@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
+import { StarRating } from "../../StarRating";
 import styles from "../shelf.module.css";
 
 type ShelfItemProps = {
 	image: string;
 	name: string;
+	rating: number;
 	flag: boolean;
 	listPrice: string;
 	price: string;
@@ -13,6 +15,7 @@ type ShelfItemProps = {
 export const ShelfItem = ({
 	image,
 	name,
+	rating,
 	flag,
 	listPrice,
 	price,
@@ -33,14 +36,7 @@ export const ShelfItem = ({
 			<h2 className={styles.product__title}>{name}</h2>
 
 			<div className={styles.product__rating}>
-				{/* <ReactStars
-									count={5}
-									value={rating || stars}
-									onChange={ratingChanged}
-									size={24}
-									isHalf={true}
-									activeColor="#F8475F"
-								/> */}
+				<StarRating totalStars={rating} />
 			</div>
 
 			<div className={styles.product__listPrice}>
