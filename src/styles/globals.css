@@ -39,7 +39,7 @@ ul {
 button {
 	cursor: pointer;
 }
-/* Change the white to any color */
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -140,7 +140,7 @@ button {
 	transform: none;
 }
 
-/* rec elastic carousel */
+/* react elastic carousel */
 .rec.rec-slider-container {
 	margin: 0;
 }
