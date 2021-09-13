@@ -8,7 +8,7 @@ HTML, CSS e JavaScript, também foi permitido o uso do React.
 Como já tenho um pouco de conhecimento, decidi desenvolver com NextJS e TypeScript, o CSS foi utilizando CSS Modules.
 
 ### Executando a aplicação
-Clone a projeto
+Clone o repositório/projeto
 ```bash
 $ git clone https://github.com/dan-liberato/go-beyond-front-end.git
 ```
