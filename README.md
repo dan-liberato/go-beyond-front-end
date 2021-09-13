@@ -1,4 +1,4 @@
-![Screenshot](screenshot.png)
+![Screenshot](screenshot-home.png)
 # Challenge 01 - Go Beyond Front-end - Corebiz
 
 Foi proposto como desafio o desenvolvimento da página Home de um e-commerce com
