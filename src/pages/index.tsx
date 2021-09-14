@@ -4,13 +4,13 @@ import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Slider } from "../components/Slider";
 import { Shelf } from "../components/Shelf";
+import { Newsletter } from "../components/Newsletter";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import styles from "../styles/home.module.css";
-import Newsletter from "../components/Newsletter";
 
 const Home: NextPage = () => {
 	return (
